@@ -2,10 +2,11 @@
 
 import {docopt} from 'docopt';
 import path from 'path';
-import {echo} from './funcs';
+import {echo} from './funcs.js';
 import inquirer from 'inquirer';
+import {fileURLToPath} from 'url';
 
-const CLI_NAME = path.basename(__filename);
+const CLI_NAME = path.basename(fileURLToPath(import.meta.url));
 const USAGE = `
 Usage:
   ${CLI_NAME}

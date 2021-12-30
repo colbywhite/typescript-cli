@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "bin": "index.js",
+  "type": "module",
   "scripts": {
     "prebuild": "rm -rf dist/*",
     "build": "tsc",
     "postbuild": "copyfiles README.md package.json dist",
-    "start": "ts-node src/index.ts"
+    "start": "node --loader ts-node/esm src/index.ts"
   },
   "keywords": [],
   "author": "",
