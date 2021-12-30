@@ -7,6 +7,8 @@ It contains the following:
 - Basic echo CLI based on [docopt]
 - Sane `tsconfig.json`
 - Sane npm scripts
+- Build packaging that results in a `typescript-cli-template` executable
+  - Changing the name of the package will change the name of the executable
 
 [Colby M. White]: https://github.com/colbywhite/
 [docopt]: http://docopt.org/

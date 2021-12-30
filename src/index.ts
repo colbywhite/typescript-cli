@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {docopt} from 'docopt';
 import path from 'path';
 import {echo} from './funcs';
