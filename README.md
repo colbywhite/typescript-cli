@@ -1,11 +1,12 @@
-# create-typescript by [Colby M. White]
+# typescript-cli-template by [Colby M. White]
 
-This is my preferred starting template for a vanilla typescript project
+This is my preferred starting template for a vanilla typescript CLI project
 with what I consider a sane set of starting settings.
 
 It contains the following:
-- Basic Hello, World script
+- Basic echo CLI based on [docopt]
+- Sane `tsconfig.json`
 - Sane npm scripts
-- `dotenv` support
 
 [Colby M. White]: https://github.com/colbywhite/
+[docopt]: http://docopt.org/
