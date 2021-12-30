@@ -5,6 +5,7 @@ with what I consider a sane set of starting settings.
 
 It contains the following:
 - Basic echo CLI based on [docopt]
+- Basic interactive echo CLI based on [inquirer]
 - Sane `tsconfig.json`
 - Sane npm scripts
 - Build packaging that results in a `typescript-cli-template` executable
@@ -12,3 +13,4 @@ It contains the following:
 
 [Colby M. White]: https://github.com/colbywhite/
 [docopt]: http://docopt.org/
+[inquirer]: https://www.npmjs.com/package/inquirer
